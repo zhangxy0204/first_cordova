@@ -1,0 +1,108 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>无标题文档</title>
+<link rel="stylesheet" href="css/css.css">
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="cordova.js"></script>
+<script type="text/javascript" src="js/index.js"></script>
+
+</head>
+
+<body>
+<div id="bj">
+
+<div id="top">
+	<div class="topleft"><img src="images/topleft.png" width="890" height="99" /></div>
+	<div class="topright">
+		<div class="toprighttop">
+			<div class="toprighttopleft">
+				<dl>
+					<dt>2015年12月25日</dt>
+					<dd>乙未年【羊年】 丁亥月 乙巳日</dd>
+				</dl>
+			</div>
+			<div class="toprighttopright">11:35:29</div>
+		</div>
+		<div class="toprightbottom">
+			<dl>
+				<dt>温度：0-10℃</dt>
+				<dd>湿度：30%</dd>
+			</dl>
+		</div>
+	</div>
+</div>
+
+<div id="nh">
+	<div class="nhleft"><span><img src="images/zhnh.jpg" width="175" height="63" /></span><span id="num1">124578</span><em>[吨标煤]</em></div>
+	<div class="nhright"><span><img src="images/dwmjzhnh.png" width="330" height="63" /></span><span id="num2">360954</span><em>[千方标煤/平方米]</em></div>
+</div>
+
+<div id="content">
+	<div class="dian">
+		<div class="col-lg-4" style=" margin:20px 0 0 -6px;filter:alpha(Opacity=40);-moz-opacity:0.4;opacity: 0.4;">
+			<canvas id="baibi-1" style="demo"></canvas>
+		</div>
+		<span>[度]</span>
+	</div>
+	<div class="shui">
+		<div class="col-lg-4" style="margin:20px 0 0 -6px;filter:alpha(Opacity=30);-moz-opacity:0.3;opacity: 0.3;">
+			<canvas id="baibi-2" style="demo"></canvas>
+		</div>
+		<span>[吨]</span>
+	</div>
+	<div class="re">
+		<div class="col-lg-4" style="margin:20px 0 0 -6px;filter:alpha(Opacity=40);-moz-opacity:0.3;opacity: 0.3;">
+			<canvas id="baibi-3" style="demo"></canvas>
+		</div>
+		<span>[吉焦]</span>
+	</div>
+	<div class="qi">
+		<div class="col-lg-4" style="margin:20px 0 0 -6px;filter:alpha(Opacity=30);-moz-opacity:0.3;opacity: 0.3;">
+			<canvas id="baibi-4" style="demo"></canvas>
+		</div>
+		<span>[标方]</span>
+	</div>
+</div>
+
+<div id="content1">
+	<div class="dian1"><div class="ri">12345678</div><div class="yue">123456.7</div><div class="nian">123.678</div></div>
+	<div class="shui1"><div class="ri">12345678</div><div class="yue">123456.7</div><div class="nian">123.678</div></div>
+	<div class="re1"><div class="ri">12345678</div><div class="yue">123456.7</div><div class="nian">123.678</div></div>
+	<div class="qi1"><div class="ri">12345678</div><div class="yue">123456.7</div><div class="nian">123.678</div></div>
+</div>
+
+
+
+</div>
+<script src="js/waterbubble.js"></script>
+<script>
+$('#baibi-1').waterbubble({data:'0.4',/*<!--txt: '40%',-->*/});
+$('#baibi-2').waterbubble({data:'0.5',/*txt: '50%',*/});
+$('#baibi-3').waterbubble({data:'0.9',/*txt: '90%',*/});
+$('#baibi-4').waterbubble({data:'0.2',/*txt: '20%',*/});
+</script>
+<script type="text/javascript">
+$(function() {
+    var nums1 = $("#num1").text().split("");
+    var html1 = "";
+    for(var i = 0; i < nums1.length; i++) {
+        html1 += '<img src="images/num/' + nums1[i] + '.png" />';
+    }
+    //$("#num").parent().html(html);
+	$("#num1").html(html1);
+	
+	var nums2 = $("#num2").text().split("");
+    var html2 = "";
+    for(var i = 0; i < nums2.length; i++) {
+        html2 += '<img src="images/num/' + nums2[i] + '.png" />';
+    }
+    //$("#num").parent().html(html);
+	$("#num2").html(html2);
+});
+</script>
+
+</body>
+</html>

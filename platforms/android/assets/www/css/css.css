@@ -1,0 +1,291 @@
+/* CSS Document */
+body {
+	margin: 0px;
+	padding:0px;
+	background-color:#43E5D4;
+	background-image:url(../images/bg.png);
+	background-position:center;
+	background-repeat:no-repeat;
+}
+*{margin:0; padding:0; border:0;}
+#bj{
+	width:100%;
+	height:1080px;
+	margin:0 auto;
+	background-image:url(../images/bottombj.png);
+	background-position:bottom center;
+	background-repeat:repeat-x;
+}
+#top{
+	width:1920px;
+	height:137px;
+	margin:0 auto;
+	padding:0;
+}
+.topleft{
+	width:1372px;
+	height:137px;
+	float:left;
+}
+.topleft img{
+	margin-top:19px;
+}
+.topright{
+	width:548px;
+	height:137px;
+	float:right;
+	background-image:url(../images/topright.jpg);
+	background-position:center top;
+	background-repeat:no-repeat;
+}
+.topright img{
+	margin:0;
+	padding:0;
+}
+.toprighttop{
+	width:470px;
+	height:77px;
+	margin:0 0 0 49px;
+}
+.toprighttopleft{
+	width:240px;
+	height:77px;
+	float:left;
+}
+.toprighttopleft dl{
+	width:240px;
+	height:77px;
+}
+.toprighttopleft dl dt{
+	width:240px;
+	height:45px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:30px;
+	line-height:45px;
+	font-weight:bold;
+	text-align:center;
+	color:#FFFFFF;
+}
+.toprighttopleft dl dd{
+	width:240px;
+	height:30px;
+	font-size:16px;
+	line-height:30px;
+	font-weight:bold;
+	text-align:center;
+	color:#FFFFFF;
+}
+.toprighttopright{
+	width:230px;
+	height:77px;
+	float:right;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:50px;
+	line-height:77px;
+	font-weight:bold;
+	text-align:center;
+	color:#FFFFFF;
+}
+.toprightbottom{
+	width:420px;
+	height:60px;
+	margin:0 auto;	
+}
+.toprightbottom dl{
+	width:380px;
+	height:60px;
+	margin:0 0 0 50px;
+}
+.toprightbottom dl dt{
+	width:180px;
+	float:left;
+	font-size:24px;
+	line-height:60px;	
+	font-family:"微软雅黑";
+	font-weight:bold;
+	text-align:center;
+	color:#456188;
+	background-image:url(../images/wendu.jpg);
+	background-position:center left;
+	background-repeat:no-repeat;
+	padding-left:10px;
+}
+.toprightbottom dl dd{
+	width:180px;
+	float:right;
+	font-size:24px;
+	line-height:60px;
+	font-family:"微软雅黑";
+	font-weight:bold;
+	text-align:center;
+	color:#456188;
+	background-image:url(../images/shidu.jpg);
+	background-position:center left;
+	background-repeat:no-repeat;
+	padding-left:10px;
+}
+#nh{	
+	width:1920px;
+	height:63px;
+	margin:56px auto 0 auto;
+}
+.nhleft{
+	width:730px;
+	height:63px;
+	padding-left:145px;
+	float:left;
+}
+.nhleft img{
+	margin:0 2px;
+	vertical-align:middle;
+}
+.nhleft span{
+	margin:0;
+	padding:0;
+	border:0;
+}
+.nhleft em{
+	border:0;
+	height:60px;
+	line-height:60px;
+	font-family:"微软雅黑";
+	font-size:24px;
+	font-style:normal;
+	padding-left:10px;
+}
+.nhright{
+	width:1025px;
+	height:63px;
+	float:right;
+}
+.nhright img{
+	margin:0 2px;
+	vertical-align:middle;
+}
+.nhright span{
+	margin:0;
+	padding:0;
+	border:0;
+}
+.nhright em{
+	border:0;
+	height:60px;
+	line-height:60px;
+	font-family:"微软雅黑";
+	font-size:24px;
+	font-style:normal;
+	margin-left:10px;
+}
+#content{
+	width:1920px;
+	height:308px;
+	margin:48px auto 0 auto;
+	text-align:center;
+}
+
+.dian{width:315px;height:308px; background-image:url(../images/dian0.png); background-position:center top; background-repeat:no-repeat; float:left; margin:0 50px 0 160px; position:relative; cursor: pointer; }
+.dian:hover{ background-image:url(../images/dian1.png); background-position:center top; background-repeat:no-repeat;}
+.dian span{line-height:35px;font-size:20px; color:#666; position:absolute; top:280px; left:260px; font-weight:bold;}
+
+.shui{width:315px;height:308px; background-image:url(../images/shui0.png); background-position:center top; background-repeat:no-repeat; float:left; margin:0 50px; position:relative; cursor: pointer;}
+.shui:hover{ background-image:url(../images/shui1.png); background-position:center top; background-repeat:no-repeat;}
+.shui span{line-height:35px;font-size:20px; color:#666; position:absolute; top:280px; left:260px; font-weight:bold;}
+
+.re{width:315px;height:308px; background-image:url(../images/re0.png); background-position:center top; background-repeat:no-repeat; float:left; margin:0 50px; position:relative; cursor: pointer;}
+.re:hover{ background-image:url(../images/re1.png); background-position:center top; background-repeat:no-repeat;}
+.re span{line-height:35px;font-size:20px; color:#666; position:absolute; top:280px; left:250px; font-weight:bold;}
+
+.qi{width:315px;height:308px; background-image:url(../images/qi0.png); background-position:center top; background-repeat:no-repeat; float:left; margin:0 50px; position:relative; cursor: pointer;}
+.qi:hover{ background-image:url(../images/qi1.png); background-position:center top; background-repeat:no-repeat;}
+.qi span{line-height:35px;font-size:20px; color:#666; position:absolute; top:280px; left:250px; font-weight:bold;}
+
+
+
+
+#content1{
+	width:1920px;
+	height:378px;
+	margin:0 auto;
+	text-align:center;
+}
+.dian1{
+	width:315px; 
+	height:378px;
+	margin:0 50px 0 160px;
+	background-image:url(../images/time.png);
+	background-position:center top;
+	background-repeat:no-repeat;
+	float:left;
+	position:relative;
+}
+.shui1{
+	width:315px; 
+	height:378px;
+	margin:0 50px;
+	background-image:url(../images/time.png);
+	background-position:center top;
+	background-repeat:no-repeat;
+	float:left;	
+	position:relative;
+}
+.re1{
+	width:315px; 
+	height:378px;
+	margin:0 50px;
+	background-image:url(../images/time.png);
+	background-position:center top;
+	background-repeat:no-repeat;
+	float:left;	
+	position:relative;
+}
+.qi1{
+	width:315px; 
+	height:378px;
+	margin:0 50px;
+	background-image:url(../images/time.png);
+	background-position:center top;
+	background-repeat:no-repeat;
+	float:left;	
+	position:relative;
+}
+
+@font-face {
+    font-family: numfont;
+    font-style:  normal;
+    src: url(../images/digifaw_0.ttf); }
+.ri{
+	width:150px;
+	height:50px;
+	position:absolute;
+	top:78px;
+	left:98px;
+	font-family:numfont;
+	font-size:24px;
+	line-height:50px;
+	text-align:center;
+}
+
+.yue{
+	width:150px;
+	height:50px;
+	position:absolute;
+	top:191px;
+	left:98px;
+	font-family:numfont;
+	font-size:24px;
+	line-height:50px;
+	text-align:center;
+}
+
+.nian{
+	width:150px;
+	height:50px;
+	position:absolute;
+	top:302px;
+	left:98px;
+	font-family:numfont;
+	font-size:24px;
+	line-height:50px;
+	text-align:center;
+}
+

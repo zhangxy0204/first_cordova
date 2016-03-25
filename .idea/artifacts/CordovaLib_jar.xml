@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="CordovaLib:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/CordovaLib_jar</output-path>
+    <root id="archive" name="CordovaLib.jar">
+      <element id="module-output" name="CordovaLib" />
+    </root>
+  </artifact>
+</component>
